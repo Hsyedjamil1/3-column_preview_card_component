@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card__component__container {
+    padding: 2rem 1rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card__component__three {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+
+
+.card__component__orange {
+    background-color: hsl(31, 77%, 52%);
+    padding: 3rem;
+}
+
+.card__container__logo {
+    margin-bottom: 2rem;
+}
+
+.card__container__title {
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.card__container__text {
+    margin-bottom: 2rem;
+    font-size: 0.87rem;
+}
+
+
+.card__component__cyan {
+    background-color: hsl(184, 100%, 22%);
+    padding: 3rem;
+}
+
+.card__component__darkcyan {
+    background-color: hsl(179, 100%, 13%);
+    padding: 3rem;
+}
+
+
+.card__container__button {
+    background-color: hsl(0, 0%, 95%);
+    color: none;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn__color {
+    color: hsl(31, 77%, 52%);
+}
+
+
+
+.btn__color1 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn__color2 {
+    color: hsl(179, 100%, 13%);
+}
+
+.card__container__button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+footer {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 769px) {
+
+    .card__component__container {
+        width: 50rem;
+    }
+
+    .card__component__three {
+        display: flex;
+        justify-content: space-between;
+    }
+}
