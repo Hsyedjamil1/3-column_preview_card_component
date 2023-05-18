@@ -84,7 +84,7 @@ body {
 .card__container__button:hover {
     color: hsl(0, 0%, 95%);
     background-color: transparent;
-    border: 2px solid hsl(0, 0%, 95%);
+    outline: 2px solid hsl(0, 0%, 95%);
 }
 
 footer {
